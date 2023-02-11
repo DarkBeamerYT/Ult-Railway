@@ -1,4 +1,4 @@
-FROM rendyprojects/python:latest
+FROM debian:11
 
 RUN apt update && apt upgrade -y
 RUN apt-get install git curl python3-pip ffmpeg -y
